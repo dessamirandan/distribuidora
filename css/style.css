@@ -1,0 +1,475 @@
+body {
+    font-family: "Playfair Display SC", 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+    color: #222222;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Super-info*/
+
+.superinfo-bg {
+    background: #222222;
+    color: white;
+}
+
+.superinfo a,
+.superinfo p {
+    color: white;
+    margin: 0 10px;
+}
+
+.superinfo a:hover {
+    color: #FBB540;
+}
+
+.superinfo {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+
+/* Header */
+
+.menu-bg {
+    background: #FBB540;
+}
+
+.menu {
+    max-width: 960px;
+    padding: 15px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.75rem;
+    margin: 0 10px;
+}
+
+.menu-logo a:hover {
+    color: #222222;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav li a {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 3px;
+    padding: 10px;
+    color: black;
+}
+
+.menu-nav li a:hover {
+    color: #fcfcfc;
+}
+
+.carrinho a {
+    max-width: 50px;
+}
+
+
+/*Introdução*/
+
+.introducao {
+    background: url(/assets/home.jpg) no-repeat center;
+    text-align: center;
+    color: #fcfcfc;
+}
+
+.titulo-pag {
+    font-size: 2rem;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.introducao p {
+    padding-bottom: 60px;
+}
+
+.produtos {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    text-align: center;
+}
+
+.produtos h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.lista-de-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-de-produtos li img {
+    flex: 1 1 280px;
+    max-width: 140px;
+    margin: 0 auto;
+}
+
+.item-produto {
+    margin: 10px;
+}
+
+.btn {
+    color: #222222;
+    display: block;
+    margin: 20px auto;
+    background: #FBB540;
+    max-width: 280px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.34s ease;
+}
+
+.btn:hover {
+    background: #222222;
+    color: #FBB540;
+    letter-spacing: 0.125em;
+}
+
+
+/*Footer*/
+
+.footer-info {
+    background: #222222;
+    color: #fcfcfc;
+    padding: 60px calc((10%-960px)/2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rodape-logo {
+    margin: 0 10px;
+    flex: 1 1 240px;
+    max-width: 180px;
+}
+
+.footer-menu {
+    flex: 1 1 240px;
+    margin: 0 20px;
+}
+
+.footer-menu h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 3px;
+    padding: 10px;
+}
+
+.footer-menu ul li a {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 3px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.footer-menu li a:hover {
+    color: #FBB540;
+}
+
+.footer-form {
+    flex: 1 1 260px;
+    margin: 0 10px;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.footer-form input {
+    flex: 3 1 260px;
+    font-size: 1rem;
+    color: #7C7C7C;
+    font-style: italic;
+    font-family: "Playfair Display SC", 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+    border-bottom: 2px solid #FBB540;
+    padding: 15px 10px;
+    background: transparent;
+}
+
+.footer-form button {
+    flex: 3 1 260px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F7F7F7;
+    font-family: "Playfair Display SC", 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+    border: 0px;
+    cursor: pointer;
+    padding: 15px 10px;
+    margin: 0px;
+    background: #FBB540;
+    letter-spacing: 0.125em;
+}
+
+.footer-social h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.footer-social a {
+    font-size: 2.5rem;
+    color: #FBB540;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.adverte {
+    text-align: center;
+    background: #222222;
+    color: #FBB540;
+    padding: 0 calc((10%-960px)/2);
+}
+
+.adverte p {
+    padding-bottom: 20px;
+}
+
+.footer {
+    background: #FBB540;
+    padding: 60px calc((10%-960px)/2);
+    color: #fcfcfc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/*Títulos das páginas*/
+
+.titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+/*Página de Contato*/
+
+.contato-intro {
+    background: url(/assets/contato.png)no-repeat center;
+    color: #fcfcfc;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.contato {
+    padding: 60px calc((10%-960px)/2);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-form input[type="submit"],
+.btn-form input[type="reset"] {
+    border: none;
+    color: #fcfcfc;
+    background: #FBB540;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.34s ease;
+    margin: 20px 20px 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-form input[type="reset"] {
+    background: #acacac;
+}
+
+.btn-form input[type="submit"]:hover {
+    color: green;
+    letter-spacing: 0.125em;
+}
+
+.btn-form input[type="reset"]:hover {
+    color: red;
+    letter-spacing: 0.125em;
+}
+
+
+/*Página de LOGIN*/
+
+.trabalhe-conosco {
+    text-align: center;
+    background: url(/assets/trabalhe_conosco.png);
+    color: #fcfcfc;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.trabalhe-conosco-info {
+    padding: 60px calc((10%-960px)/2);
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 50vw;
+}
+
+.formulario input {
+    background: #FBB540;
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 10px;
+    border: none;
+    margin: 5px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+.formulario textarea {
+    background: #FBB540;
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 10px;
+    border: none;
+    margin: 5px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+.enviar-arquivo input {
+    background: none;
+}
+
+.dados h3 {
+    color: #FBB540;
+    margin-bottom: 20px;
+}
+
+
+/*Sobre nós*/
+
+.sobre-intro {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: url(/assets/sobre.jpg) no-repeat center;
+    color: #fcfcfc;
+}
+
+.sobre-info {
+    padding: 60px calc((10%-960px)/2);
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.sobre-historia {
+    flex: 2 1 280px;
+    padding: 0 10px;
+}
+
+.sobre-valores {
+    flex: 1 1 280px;
+    padding: 0 10px;
+}
+
+.sobre-historia p {
+    font-family: 'Playfair Display', serif;
+    max-width: 520px;
+    padding-top: 20px;
+}
+
+.sobre-valores ul {
+    padding-top: 15px;
+}
+
+.sobre-valores ul li {
+    font-family: 'Playfair Display', serif;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sobre-valores ul li::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FBB540;
+    margin-right: 5px;
+}
+
+
+/*Página de Registro*/
+
+.registro {
+    background: url(/assets/home.jpg);
+    color: honeydew;
+}
+
+.registro h1 {
+    padding: 60px calc((10%-960px)/2);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.registro-info {
+    padding: 60px calc((10%-960px)/2);
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

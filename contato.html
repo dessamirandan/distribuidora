@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/logo-1.svg" sizes="16x16" type="image/svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/0c99c9f279.js" crossorigin="anonymous"></script>
+    <title>Contato - UHU! Bebidas - Sua distribuidora em Belo Horizonte e região - Gelada e entregue na hora</title>
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="/index.html">UHU! Bebidas</a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="/sobre.html">Sobre</a></li>
+                    <li><a href="/contato.html">Contato</a></li>
+                    <li><a href="/trabalhe_conosco.html">Trabalhe Conosco</a></li>
+                    <li><a href="/login.html" onclick="alert('Você será redirecionado(a) para a página de Login')">Login</a></li>
+                    <li><a href="/registro.html">Cadastre-se</a></li>
+                    <li class="carrinho">
+                        <a href="/carrinho.html" tabindex="-1" aria-disabled="true"> <img class="icon-carrinho" src="/assets/carrinho-de-compras.png" alt="Carrinho" /> </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Formulário para cotato-->
+    <section class="contato-intro">
+        <h1 class="titulo">Fale Conosco</h1>
+    </section>
+
+    <section class="contato">
+        <form class="formulario">
+            <label for="nome">Nome Compelto</label>
+            <input type="text" id="nome" name="Digite seu nome" placeholder="Digite seu nome completo">
+            <label for="email"> E-mail </label>
+            <input type="text" id="email" name="Digite seu mehor e-mail" placeholder="Digite seu melhor e-mail">
+            <label for="mensagem"> Mensagem</label>
+            <textarea class="mensagem" name="comment" form="usrform" placeholder="Insira sua mensagem"></textarea>
+            <div class="btn-form">
+                <input type="submit" onclick="alert('Mensagem enviada! Respondemos em até 48h.')" value="Enviar" />
+                <input type="reset" value="Limpar">
+                </fieldset>
+            </div>
+        </form>
+        <div class="dados">
+            <h3>Dados </h3>
+            <p>
+                +55 31 99999-9999
+                <p>
+                    <p> contato@uhudistribuidora.com.br
+                        <p>
+                            <br/>
+                            <p> Rua logo ali, bairro trem</p>
+                            <p> Belo Horizonte, Minas Gerais
+                                <p>
+                                    <div class="footer-social">
+                                        <a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i> </a>
+                                        <a href="#"><i class="fab fa-whatsapp-square"></i> </a>
+                                        <a href="#"><i class="fab fa-instagram-square" aria-hidden="true"></i> </a>
+                                    </div>
+        </div>
+    </section>
+    <!--Rodapé-->
+    <section class="footer-info">
+        <div class="rodape-logo">
+            <img src="/assets/logo.svg" alt="Página inicial uhu bebidas" srcset="">
+        </div>
+        <nav class="footer-menu">
+            <h3> Menu </h3>
+            <ul>
+                <li><a href="/sobre.html">Sobre</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+                <li><a href="/trabalhe_conosco.html">Trabalhe Conosco</a></li>
+                <li><a href="/login.html">Login</a></li>
+                <li><a href="/registro.html">Cadastre-se</a></li>
+
+            </ul>
+        </nav>
+        <div class="footer-busca">
+            <form class="footer-form">
+                <input type="search" name="Buscar no site" id="" placeholder="Buscar no site">
+                <button type="submit"> Buscar </button>
+            </form>
+            <div class="footer-social">
+                <h3> Siga-nos nas redes sociais </h3>
+                <a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i> </a>
+                <a href="#"><i class="fab fa-whatsapp-square"></i> </a>
+                <a href="#"><i class="fab fa-instagram-square" aria-hidden="true"></i> </a>
+            </div>
+
+        </div>
+    </section>
+    <section class="adverte">
+        <p> Se beber, não dirija! </p>
+    </section>
+    <footer class="footer">
+        <p> Uhu! distribuidora de bebidas © Todos os direitos reservados.</p>
+
+    </footer>
+</body>
+
+</html>
