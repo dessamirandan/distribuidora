@@ -415,11 +415,13 @@ img {
 .sobre-historia {
     flex: 2 1 280px;
     padding: 0 10px;
+    margin: 10rem;
 }
 
 .sobre-valores {
     flex: 1 1 280px;
     padding: 0 10px;
+    margin: 10rem;
 }
 
 .sobre-historia p {
